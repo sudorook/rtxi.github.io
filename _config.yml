@@ -20,11 +20,11 @@ pis:
  - name: Robert Butera
    face: robert_butera.jpg
    where: Georgia Insititute of Technology
-   url: https://neurolab.gatech.edu/labs/butera
+   url: https://butera.gatech.edu/people/
  - name: David Christini
    face: david_christini.jpg
    where: Weill Cornell Medical College
-   url: http://christinilab.org
+   url: http://www.christinilab.org/david-christini
  - name: Chuck Dorval
    face: chuck_dorval.jpg
    where: The University of Utah
@@ -32,7 +32,7 @@ pis:
  - name: John White
    face: john_white.jpg
    where: Boston University
-   url: https://sites.google.com/site/johnwhitelab/
+   url: https://sites.google.com/site/johnwhitelab/john-a-white
 
 developers:
  - name: Francis Ortega 
