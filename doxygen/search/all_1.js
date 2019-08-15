@@ -1,5 +1,9 @@
 var searchData=
 [
+  ['a4l_5fchan_5faref_5fcommon',['A4L_CHAN_AREF_COMMON',['../analogy__device_8cpp.html#a7f3e39e0773ea29526aa72497a738474',1,'analogy_device.cpp']]],
+  ['a4l_5fchan_5faref_5fdiff',['A4L_CHAN_AREF_DIFF',['../analogy__device_8cpp.html#a8e544207dc38e33b48d5cc35f8a62846',1,'analogy_device.cpp']]],
+  ['a4l_5fchan_5faref_5fground',['A4L_CHAN_AREF_GROUND',['../analogy__device_8cpp.html#a910bc672f6e55346643f9c69d175134f',1,'analogy_device.cpp']]],
+  ['a4l_5fchan_5faref_5fother',['A4L_CHAN_AREF_OTHER',['../analogy__device_8cpp.html#ac53c87ed54169ca73244961fa5089331',1,'analogy_device.cpp']]],
   ['a_5fbiquad_5fcoef',['A_Biquad_Coef',['../class_filter_trans_func.html#a720d4c95fa6820afdb97896b058899c9',1,'FilterTransFunc']]],
   ['a_5fcoef',['A_Coef',['../class_analog_pole_zero_filter.html#aad3d1cd21d8a18d6cefe2c91df11fecd',1,'AnalogPoleZeroFilter']]],
   ['a_5fcoeffs',['A_Coeffs',['../class_ar_process.html#ac43b06527af31d2ea7a34594d446fca2',1,'ArProcess::A_Coeffs()'],['../class_arma_process.html#a39a090f5d9f9b7843dcd5f03403e268a',1,'ArmaProcess::A_Coeffs()'],['../class_burg_method.html#ac3ae6407358064d846a4809a54ff917c',1,'BurgMethod::A_Coeffs()']]],
@@ -38,7 +42,7 @@ var searchData=
   ['amplitude',['amplitude',['../class_generator_biphase.html#aca2809aeef959c2f154eaacde1c10aeb',1,'GeneratorBiphase::amplitude()'],['../class_generator_mono.html#ab3bab5def424b94190d68b6dadf23bff',1,'GeneratorMono::amplitude()'],['../class_generator_saw.html#a66366ad592188983a7d735534087b55a',1,'GeneratorSaw::amplitude()'],['../class_generator_sine.html#a2f4e3b6a26b90c52ce5491bd97af4fd3',1,'GeneratorSine::amplitude()'],['../class_generator_zap.html#a02782bb23f456945b5ed1e3aab959829',1,'GeneratorZap::amplitude()']]],
   ['analog',['analog',['../struct_analogy_device_1_1channel__t.html#a3d43a06441aa7d2886e8cbddf99bb28c',1,'AnalogyDevice::channel_t']]],
   ['analog_5fchannel_5ft',['analog_channel_t',['../struct_analogy_device_1_1analog__channel__t.html',1,'AnalogyDevice']]],
-  ['analog_5fexists',['analog_exists',['../class_analogy_device.html#a75204ffbddec860d130ba14d61b47976',1,'AnalogyDevice']]],
+  ['analog_5fexists',['analog_exists',['../class_analogy_device.html#a382bca0a9fcd8bfd241770b917dfa8dc',1,'AnalogyDevice']]],
   ['analog_5finterp_5frate',['Analog_Interp_Rate',['../class_analog_reconst.html#a703a88bb66dd438c6409aeb4b3d43459',1,'AnalogReconst']]],
   ['analog_5fsignal',['Analog_Signal',['../class_analog_reconst.html#a3ee502d0ac8bb385d0b3694499f2db11',1,'AnalogReconst']]],
   ['analogactivebutton',['analogActiveButton',['../class_system_control_panel.html#adfa6b0d18e0ed08a53c705941160c8bc',1,'SystemControlPanel']]],
@@ -103,7 +107,7 @@ var searchData=
   ['armaspec_2eh',['armaspec.h',['../armaspec_8h.html',1,'']]],
   ['armaspectrum',['ArmaSpectrum',['../class_arma_spectrum.html',1,'ArmaSpectrum&lt; T &gt;'],['../class_arma_spectrum.html#acf537640a9e797d670dd4f8ac00f3f5c',1,'ArmaSpectrum::ArmaSpectrum()']]],
   ['arprocess',['ArProcess',['../class_ar_process.html',1,'ArProcess&lt; T &gt;'],['../class_ar_process.html#a4834fc6aeee5a761c7b5874a1766ca5b',1,'ArProcess::ArProcess()']]],
-  ['array',['array',['../singletonvector.html#a7b744fdf36d9a255046c458d395cfadc',1,'vector']]],
+  ['array',['array',['../classvector.html#a7b744fdf36d9a255046c458d395cfadc',1,'vector']]],
   ['arsignalsource',['ArSignalSource',['../arsigsrc_8cpp.html#ad480546d2e26a1401e77986e753ba6da',1,'ArSignalSource(istream &amp;uin, ostream &amp;uout, double *ret_samp_intvl, int seq_len, complex *signal):&#160;arsigsrc.cpp'],['../arsigsrc_8h.html#a3ac3776a140b6d139c484c47e84203e9',1,'ArSignalSource(std::istream &amp;uin, std::ostream &amp;uout, double *ret_samp_intvl, int seq_len, complex *signal):&#160;arsigsrc.h']]],
   ['arsigsrc_2ecpp',['arsigsrc.cpp',['../arsigsrc_8cpp.html',1,'']]],
   ['arsigsrc_2eh',['arsigsrc.h',['../arsigsrc_8h.html',1,'']]],

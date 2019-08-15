@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['objectlist',['objectList',['../class_settings_1_1_manager.html#a5ca679c381dd6ceb617ad31b469d7ee3',1,'Settings::Manager']]],
-  ['objectmap',['objectMap',['../class_settings_1_1_manager.html#aa4fcc2e285c844686a272a4bd2faf40b',1,'Settings::Manager']]],
+  ['objectlist',['objectList',['../class_settings_1_1_manager.html#a00c773b4dc97f8b677583d5ccb1f8a16',1,'Settings::Manager']]],
+  ['objectmap',['objectMap',['../class_settings_1_1_manager.html#aca30e567703a1de413dfe6840f7c5a70',1,'Settings::Manager']]],
   ['offset',['offset',['../struct_analogy_device_1_1analog__channel__t.html#a2fd249199be7b91b033fbd58379ca0ed',1,'AnalogyDevice::analog_channel_t::offset()'],['../class_scope_1_1_channel.html#adce871756758aab9d5052d1f9548d97d',1,'Scope::Channel::offset()']]],
   ['offsetsedit',['offsetsEdit',['../class_oscilloscope_1_1_panel.html#a0ac17c9f2d646c1099f9d6a9a2f38cda',1,'Oscilloscope::Panel']]],
   ['offsetslist',['offsetsList',['../class_oscilloscope_1_1_panel.html#a507618a76bf5dd5d730752c1169a7810',1,'Oscilloscope::Panel']]],

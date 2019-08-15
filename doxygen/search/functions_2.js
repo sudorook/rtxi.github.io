@@ -2,7 +2,7 @@ var searchData=
 [
   ['bartlettperiodogram',['BartlettPeriodogram',['../class_bartlett_periodogram.html#ad65544d3bb857720b1606ca1cd6e3571',1,'BartlettPeriodogram']]],
   ['basicplot',['BasicPlot',['../class_basic_plot.html#ad1f9ef4ce674823c2c065afb22ad3c13',1,'BasicPlot']]],
-  ['begin',['begin',['../class_r_t_1_1_list.html#a65244c404843926445971cac844506e0',1,'RT::List::begin(void)'],['../class_r_t_1_1_list.html#ad39ae660cd7dab096bd9709c2fd49de9',1,'RT::List::begin(void) const ']]],
+  ['begin',['begin',['../class_r_t_1_1_list.html#a65244c404843926445971cac844506e0',1,'RT::List::begin(void)'],['../class_r_t_1_1_list.html#a412559a4c040291d40a88ef3b6a31e88',1,'RT::List::begin(void) const']]],
   ['bessel_5fi_5fzero',['bessel_I_zero',['../bessel_8cpp.html#a0d49c4e9a1220e503ec297382355e868',1,'bessel_I_zero(double x):&#160;bessel.cpp'],['../bessel_8h.html#a0d49c4e9a1220e503ec297382355e868',1,'bessel_I_zero(double x):&#160;bessel.cpp']]],
   ['besseltransfunc',['BesselTransFunc',['../class_bessel_trans_func.html#ab667f67cdd7ce438a8809932a19402f4',1,'BesselTransFunc']]],
   ['bilineartransf',['BilinearTransf',['../bilinear_8cpp.html#a0c60dc27650412efc4493755cf2c6e81',1,'BilinearTransf(FilterTransFunc *analog_filter, double sampling_interval):&#160;bilinear.cpp'],['../bilinear_8h.html#a0c60dc27650412efc4493755cf2c6e81',1,'BilinearTransf(FilterTransFunc *analog_filter, double sampling_interval):&#160;bilinear.cpp']]],

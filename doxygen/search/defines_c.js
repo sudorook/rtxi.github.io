@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['schrage_5fquotient',['SCHRAGE_QUOTIENT',['../uni__rand_8cpp.html#a16c1b779a496b9af823e9a2fdbbfac44',1,'uni_rand.cpp']]],
-  ['schrage_5fremainder',['SCHRAGE_REMAINDER',['../uni__rand_8cpp.html#a42248891a6a04bdf1e31b5df9354229d',1,'uni_rand.cpp']]],
-  ['stdc_5fheaders',['STDC_HEADERS',['../rtxi__config_8h.html#a550e5c272cc3cf3814651721167dcd23',1,'rtxi_config.h']]]
+  ['tag_5fsize',['TAG_SIZE',['../data__recorder_8cpp.html#a28038a2e6c0aedde6be86f172441fac9',1,'data_recorder.cpp']]],
+  ['true',['TRUE',['../misdefs_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d',1,'misdefs.h']]],
+  ['twopi',['TWOPI',['../gen__sine_8cpp.html#a4912c64aec0c943b7985db6cb61ff83a',1,'TWOPI():&#160;gen_sine.cpp'],['../gen__zap_8cpp.html#a4912c64aec0c943b7985db6cb61ff83a',1,'TWOPI():&#160;gen_zap.cpp']]]
 ];

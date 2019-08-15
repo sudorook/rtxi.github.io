@@ -5,7 +5,7 @@ var class_settings_1_1_manager =
     [ "Manager", "class_settings_1_1_manager.html#aa9f862b858cb4e5fc1d237dff50e3659", null ],
     [ "acquireID", "class_settings_1_1_manager.html#af4480fb35289813103fb4318eb17b1ad", null ],
     [ "foreachObject", "class_settings_1_1_manager.html#a9d08e08499ff0a7f03c172f61c21c53c", null ],
-    [ "getObject", "class_settings_1_1_manager.html#a698b99a2280994319a2aef0c69d8b049", null ],
+    [ "getObject", "class_settings_1_1_manager.html#a2e1ed1fc504dda8aac91d35144a8dcd9", null ],
     [ "insertObject", "class_settings_1_1_manager.html#af30c782255a70bdeeb5d416286e3b967", null ],
     [ "load", "class_settings_1_1_manager.html#a5dc82735adcc579790fb461eb3c6e22f", null ],
     [ "operator=", "class_settings_1_1_manager.html#a44e375ae4e304ce62fac1ad98fc79b67", null ],
@@ -15,6 +15,6 @@ var class_settings_1_1_manager =
     [ "Object", "class_settings_1_1_manager.html#a0720b5f434e636e22a3ed34f847eec57", null ],
     [ "currentID", "class_settings_1_1_manager.html#a65f3f4638ff5a228dace26cdd81002e2", null ],
     [ "mutex", "class_settings_1_1_manager.html#a20ea6689fcf00b11529242b77fca4ace", null ],
-    [ "objectList", "class_settings_1_1_manager.html#a5ca679c381dd6ceb617ad31b469d7ee3", null ],
-    [ "objectMap", "class_settings_1_1_manager.html#aa4fcc2e285c844686a272a4bd2faf40b", null ]
+    [ "objectList", "class_settings_1_1_manager.html#a00c773b4dc97f8b677583d5ccb1f8a16", null ],
+    [ "objectMap", "class_settings_1_1_manager.html#aca30e567703a1de413dfe6840f7c5a70", null ]
 ];

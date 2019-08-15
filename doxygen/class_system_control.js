@@ -7,5 +7,5 @@ var class_system_control =
     [ "operator=", "class_system_control.html#a1a1128c0a28d89bae2a48bbd8ba479d0", null ],
     [ "removeControlPanel", "class_system_control.html#aca3a62c14b198b02ec095c20013e4ed1", null ],
     [ "SystemControlPanel", "class_system_control.html#a076ddaf4880777b044c4d9cbf1db78c3", null ],
-    [ "panelList", "class_system_control.html#a8ebdc988777cff218ab8293ce847791e", null ]
+    [ "panelList", "class_system_control.html#ab57b85d646adbbdd8995c889d669bb5e", null ]
 ];

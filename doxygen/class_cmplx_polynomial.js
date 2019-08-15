@@ -12,7 +12,7 @@ var class_cmplx_polynomial =
     [ "GetCoeff", "class_cmplx_polynomial.html#a9aa43134cb171eaa60914f0c96a2e5f0", null ],
     [ "GetDegree", "class_cmplx_polynomial.html#a764fff8c20fb5cb592a0beb8c7cc8109", null ],
     [ "GetRoots", "class_cmplx_polynomial.html#ad02b4dc5b2de18a4bac9248f30f89d42", null ],
-    [ "operator*=", "class_cmplx_polynomial.html#a82cc0f5dcd4bbc935dc67ee6b4e79fbb", null ],
+    [ "operator *=", "class_cmplx_polynomial.html#a970863a723979344919def846cf8d819", null ],
     [ "operator/=", "class_cmplx_polynomial.html#abad4e62e747de4334e158629bb276afe", null ],
     [ "operator=", "class_cmplx_polynomial.html#ab81952ba480fa0ec5a52cce63b835c32", null ],
     [ "ReflectRoot", "class_cmplx_polynomial.html#a2dd55b7db7ae6fcb3b173fd1fa8b390c", null ],

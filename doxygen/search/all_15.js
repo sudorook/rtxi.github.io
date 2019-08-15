@@ -30,7 +30,6 @@ var searchData=
   ['update_5fcount',['Update_Count',['../class_adaptive_fir.html#a199d173ba7c3ad149a36909bf2f64064',1,'AdaptiveFir']]],
   ['update_5fflags_5ft',['update_flags_t',['../class_default_g_u_i_model.html#aa0405d1dceb86b5b4e328fe3cfc62e22',1,'DefaultGUIModel']]],
   ['updatebutton',['updateButton',['../class_r_t_x_i_wizard_1_1_panel.html#a2ebed0446d57495a29caacb5962aac5b',1,'RTXIWizard::Panel']]],
-  ['updatecheck',['updateCheck',['../class_main_window.html#a696506b0f7325a2b8199244e671548dd',1,'MainWindow']]],
   ['updateconnectionbutton',['updateConnectionButton',['../class_connector_1_1_panel.html#a44679b654cd8eb4b53d6c393ac779ead',1,'Connector::Panel']]],
   ['updatedevice',['updateDevice',['../class_system_control_panel.html#ae800dd1d0e465c465c80cce5de33d7c3',1,'SystemControlPanel']]],
   ['updatedownsamplerate',['updateDownsampleRate',['../class_data_recorder_1_1_panel.html#a000f88e312fb1c2db60aa552406b7ddd',1,'DataRecorder::Panel']]],

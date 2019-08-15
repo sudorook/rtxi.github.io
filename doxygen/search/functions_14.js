@@ -12,7 +12,6 @@ var searchData=
   ['up',['up',['../class_semaphore.html#a0e004289b586f0599a1882efc9e3858c',1,'Semaphore']]],
   ['update',['update',['../class_performance_measurement_1_1_panel.html#ae6f9831e3a25ab59c448b67216decf8d',1,'PerformanceMeasurement::Panel::update()'],['../class_default_g_u_i_model.html#ad8caf5032e29e8b7da6c942ce06cb8e2',1,'DefaultGUIModel::update()']]],
   ['updatebutton',['updateButton',['../class_r_t_x_i_wizard_1_1_panel.html#a2ebed0446d57495a29caacb5962aac5b',1,'RTXIWizard::Panel']]],
-  ['updatecheck',['updateCheck',['../class_main_window.html#a696506b0f7325a2b8199244e671548dd',1,'MainWindow']]],
   ['updateconnectionbutton',['updateConnectionButton',['../class_connector_1_1_panel.html#a44679b654cd8eb4b53d6c393ac779ead',1,'Connector::Panel']]],
   ['updatedevice',['updateDevice',['../class_system_control_panel.html#ae800dd1d0e465c465c80cce5de33d7c3',1,'SystemControlPanel']]],
   ['updatedownsamplerate',['updateDownsampleRate',['../class_data_recorder_1_1_panel.html#a000f88e312fb1c2db60aa552406b7ddd',1,'DataRecorder::Panel']]],

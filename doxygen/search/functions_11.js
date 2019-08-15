@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['r',['r',['../class_pow_fast.html#a475a44e93d6f9f6aeca0a3c7d78e314f',1,'PowFast']]],
+  ['r',['r',['../class_pow_fast.html#a5c06b87a3ee18bfa726bd61f7fe6c76e',1,'PowFast']]],
   ['read',['read',['../class_analogy_device.html#a4de948104b57e912377237b8ddfac1b9',1,'AnalogyDevice::read()'],['../class_performance_measurement_1_1_panel.html#a430bdca318063ecad64f6158963720d4',1,'PerformanceMeasurement::Panel::read()'],['../class_atomic_fifo.html#af961d473dd43c12e7e426398f5ce504b',1,'AtomicFifo::read()'],['../class_fifo.html#a999600fedf53c9c20b4fe38da6c48d71',1,'Fifo::read()'],['../class_r_t_1_1_device.html#a8bcab6a3ccdf03622b054c0e2537bdfa',1,'RT::Device::read()']]],
   ['real',['real',['../complex_8h.html#a00cad184be212167b86c12d63694d159',1,'complex.h']]],
   ['realtimemath',['RealTimeMath',['../class_real_time_math.html#a09ecaae72bfd4e692e640344645b92ee',1,'RealTimeMath']]],
@@ -47,7 +47,7 @@ var searchData=
   ['resizeevent',['resizeEvent',['../class_scope.html#ae9eb8dfc68f1050fecab98947cfa40c1',1,'Scope']]],
   ['resizeme',['resizeMe',['../class_default_g_u_i_model.html#a9cc355adb5a0e1d8b1c5ce3b27e832a9',1,'DefaultGUIModel']]],
   ['rlsfilter',['RlsFilter',['../class_rls_filter.html#ad68284444d1401b5ad19a0266726e833',1,'RlsFilter']]],
-  ['rowvec',['rowvec',['../singletonrowvec.html#a99b5730b4c61ec5e5d0f69af7dfadfc2',1,'rowvec::rowvec(void)'],['../singletonrowvec.html#a1c984d1f29c01ba25800db83c4f32577',1,'rowvec::rowvec(int origin, int size)']]],
+  ['rowvec',['rowvec',['../classrowvec.html#a99b5730b4c61ec5e5d0f69af7dfadfc2',1,'rowvec::rowvec(void)'],['../classrowvec.html#a1c984d1f29c01ba25800db83c4f32577',1,'rowvec::rowvec(int origin, int size)']]],
   ['rthandler',['RTHandler',['../class_event_1_1_r_t_handler.html#ab5c815b49fa24002d82ccecb0a517f68',1,'Event::RTHandler']]],
   ['rtxievent',['RTXIEvent',['../class_plugin_1_1_r_t_x_i_event.html#aee898774e4cb5af0b22436dda499ce6d',1,'Plugin::RTXIEvent']]],
   ['run',['Run',['../class_analog_filter.html#a9adaf1ad179f443e3c2d2f09d2047026',1,'AnalogFilter::Run()'],['../class_analog_all_pole_filt.html#a76afcfec0832d2aaac1563f3cb4539b2',1,'AnalogAllPoleFilt::Run()'],['../class_analog_pole_zero_filter.html#aa19834c19438e4b5c7505159958b99be',1,'AnalogPoleZeroFilter::Run()']]],

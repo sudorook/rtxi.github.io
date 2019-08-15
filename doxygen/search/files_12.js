@@ -1,9 +1,11 @@
 var searchData=
 [
-  ['thy_5fspec_2eh',['thy_spec.h',['../thy__spec_8h.html',1,'']]],
-  ['toeplitz_2ecpp',['toeplitz.cpp',['../toeplitz_8cpp.html',1,'']]],
-  ['toeplitz_2eh',['toeplitz.h',['../toeplitz_8h.html',1,'']]],
-  ['trianglr_2ecpp',['trianglr.cpp',['../trianglr_8cpp.html',1,'']]],
-  ['trianglr_2eh',['trianglr.h',['../trianglr_8h.html',1,'']]],
-  ['typedefs_2eh',['typedefs.h',['../typedefs_8h.html',1,'']]]
+  ['uni_5frand_2ecpp',['uni_rand.cpp',['../uni__rand_8cpp.html',1,'']]],
+  ['uni_5frand_2eh',['uni_rand.h',['../uni__rand_8h.html',1,'']]],
+  ['unq_5fiir_2ecpp',['unq_iir.cpp',['../unq__iir_8cpp.html',1,'']]],
+  ['unq_5fiir_2eh',['unq_iir.h',['../unq__iir_8h.html',1,'']]],
+  ['unwrap_2ecpp',['unwrap.cpp',['../unwrap_8cpp.html',1,'']]],
+  ['unwrap_2eh',['unwrap.h',['../unwrap_8h.html',1,'']]],
+  ['userprefs_2ecpp',['userprefs.cpp',['../userprefs_8cpp.html',1,'']]],
+  ['userprefs_2eh',['userprefs.h',['../userprefs_8h.html',1,'']]]
 ];

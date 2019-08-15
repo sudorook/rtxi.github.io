@@ -13,5 +13,5 @@ var class_plugin_1_1_manager =
     [ "unloadAll", "class_plugin_1_1_manager.html#a625ec017a703df88373ed2dc6f08d9dc", null ],
     [ "Object", "class_plugin_1_1_manager.html#a0720b5f434e636e22a3ed34f847eec57", null ],
     [ "mutex", "class_plugin_1_1_manager.html#afd180a54222b1a5674079e1a7683f5bb", null ],
-    [ "pluginList", "class_plugin_1_1_manager.html#a5a555f40ddd0470f5d3b032f10aef7b1", null ]
+    [ "pluginList", "class_plugin_1_1_manager.html#a293f7bb75e766563427f108ad38104e0", null ]
 ];

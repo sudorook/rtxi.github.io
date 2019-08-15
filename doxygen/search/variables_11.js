@@ -1,7 +1,6 @@
 var searchData=
 [
   ['qnam',['qnam',['../class_r_t_x_i_wizard_1_1_panel.html#a053ec3d386c5f2a1783bc2a16ff9bac2',1,'RTXIWizard::Panel']]],
-  ['qt_5fsection_5falignment_5fdummy',['qt_section_alignment_dummy',['../moc__qwt__designer__plugin_8cpp.html#a5224d929b42accc7ffdaf4969e5eca8c',1,'moc_qwt_designer_plugin.cpp']]],
   ['quan_5fcoeff',['Quan_Coeff',['../class_direct_form_fir.html#a50d1adf6461311dda828d50701402a5d',1,'DirectFormFir']]],
   ['quan_5fdec_5fout',['Quan_Dec_Out',['../class_multirate_lowpass.html#a2eaabecea89b7a25a6630ac8f4cbe702',1,'MultirateLowpass']]],
   ['quan_5fdenom_5fcoeff',['Quan_Denom_Coeff',['../class_direct_form_iir.html#a454637f461263a754b638fbff7f2a2e8',1,'DirectFormIir']]],

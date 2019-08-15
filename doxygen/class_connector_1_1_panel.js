@@ -9,7 +9,7 @@ var class_connector_1_1_panel =
     [ "receiveEvent", "class_connector_1_1_panel.html#a0c34d2c9f27f3298c614828bdcc20796", null ],
     [ "toggleConnection", "class_connector_1_1_panel.html#a19fac01dc4943b5ef64dcc69e74bdb3f", null ],
     [ "updateConnectionButton", "class_connector_1_1_panel.html#a44679b654cd8eb4b53d6c393ac779ead", null ],
-    [ "blocks", "class_connector_1_1_panel.html#a95dabe24df1f65210505d1d9b2509cec", null ],
+    [ "blocks", "class_connector_1_1_panel.html#ab731a980d966043014b485df6ef7ab8a", null ],
     [ "buttonGroup", "class_connector_1_1_panel.html#aff6d7802e584a3ff930d50dddad60e3b", null ],
     [ "connectionBox", "class_connector_1_1_panel.html#ae4dbd20d4a6c1d845f09b9a89ae5abaa", null ],
     [ "connectionButton", "class_connector_1_1_panel.html#a646954dba728249af1798a98a98e8618", null ],

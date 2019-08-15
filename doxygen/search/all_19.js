@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['y',['y',['../class_generator_w_noise.html#aa8edcc56d7feb09c52a25c3c40a4d6a9',1,'GeneratorWNoise::y()'],['../class_curve_data.html#a681ce130c86c62bcc1f6c488645f9b5b',1,'CurveData::y()']]],
+  ['y',['y',['../class_generator_w_noise.html#aa8edcc56d7feb09c52a25c3c40a4d6a9',1,'GeneratorWNoise::y()'],['../class_curve_data.html#ad5717b4ea89bb1d897ecd1ee6b6e9d17',1,'CurveData::y()']]],
   ['y_5fprime',['Y_Prime',['../class_analog_all_pole_filt.html#a0d8cf8cfdcce21f87a7fa3856a5b00d5',1,'AnalogAllPoleFilt']]],
   ['ydata',['yData',['../class_incremental_plot.html#af84f91c0970e8e05dda5419737d23b2c',1,'IncrementalPlot']]],
   ['yogi',['yogi',['../class_i_o_1_1_block.html#abb99af7793b104c092baffa27eaa38ff',1,'IO::Block']]],

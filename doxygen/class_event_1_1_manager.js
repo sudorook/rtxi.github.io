@@ -12,7 +12,7 @@ var class_event_1_1_manager =
     [ "unregisterRTHandler", "class_event_1_1_manager.html#a744a67f7d148b21924448070eb34e49b", null ],
     [ "Handler", "class_event_1_1_manager.html#a814a99fe9f92ee19167a82c9113c8c48", null ],
     [ "RTHandler", "class_event_1_1_manager.html#aed8b3baf47d2ec86e23e7cc864bfdbec", null ],
-    [ "handlerList", "class_event_1_1_manager.html#acf5e7551aaa25c18b41170853e19ec52", null ],
+    [ "handlerList", "class_event_1_1_manager.html#a66feefc3db47bf3b8a3b8db026300b26", null ],
     [ "mutex", "class_event_1_1_manager.html#a80f554dd0a9b8a656df8ce16989afadc", null ],
     [ "rthandlerList", "class_event_1_1_manager.html#ab9588fe9cef92a9347263a78c9c87d14", null ]
 ];

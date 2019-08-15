@@ -8,6 +8,6 @@ var class_workspace_1_1_manager =
     [ "operator=", "class_workspace_1_1_manager.html#a8460207efc4bd8f73ca842e0584b0a57", null ],
     [ "removeWorkspace", "class_workspace_1_1_manager.html#acef6a1aeb6589684a838231ab077fce9", null ],
     [ "Instance", "class_workspace_1_1_manager.html#aea90763cbe6c91bbcd6e9bf0d66dc500", null ],
-    [ "instanceList", "class_workspace_1_1_manager.html#a762bb9769bf93596403e42ebee6d5a96", null ],
+    [ "instanceList", "class_workspace_1_1_manager.html#ab80a69e316e8edbd0133ae047a9609f9", null ],
     [ "mutex", "class_workspace_1_1_manager.html#acf06df61c6424b00439e0279b88daa39", null ]
 ];

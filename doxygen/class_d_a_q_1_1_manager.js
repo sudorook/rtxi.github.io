@@ -12,7 +12,7 @@ var class_d_a_q_1_1_manager =
     [ "unregisterDriver", "class_d_a_q_1_1_manager.html#a72d49d3f4d82b5d27cdcd51e0beaa384", null ],
     [ "Device", "class_d_a_q_1_1_manager.html#a520fa05e0bf58785da428f7a0241eee2", null ],
     [ "Driver", "class_d_a_q_1_1_manager.html#aa486dd31a76947b501426d11b1d6c700", null ],
-    [ "devices", "class_d_a_q_1_1_manager.html#aa63f9d816026132777b82d5c8b40fdff", null ],
-    [ "driverMap", "class_d_a_q_1_1_manager.html#ac952e9bc625d6d79e53fe0d6ed72e597", null ],
+    [ "devices", "class_d_a_q_1_1_manager.html#a47483feac8dd688364c49e475589d43c", null ],
+    [ "driverMap", "class_d_a_q_1_1_manager.html#aa451f5dc47d575a789090a383798b076", null ],
     [ "mutex", "class_d_a_q_1_1_manager.html#aedb99c60869cc15b0018c3c35f72de5a", null ]
 ];

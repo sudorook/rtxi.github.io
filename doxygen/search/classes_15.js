@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['welchperiodogram',['WelchPeriodogram',['../class_welch_periodogram.html',1,'']]]
+  ['xenomai_5ftask_5ft',['xenomai_task_t',['../structxenomai__task__t.html',1,'']]]
 ];

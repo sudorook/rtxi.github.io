@@ -2,11 +2,7 @@ var searchData=
 [
   ['maestimate',['MaEstimate',['../class_ma_estimate.html',1,'']]],
   ['mainwindow',['MainWindow',['../class_main_window.html',1,'']]],
-  ['manager',['Manager',['../class_workspace_1_1_manager.html',1,'Workspace']]],
-  ['manager',['Manager',['../class_d_a_q_1_1_manager.html',1,'DAQ']]],
-  ['manager',['Manager',['../class_settings_1_1_manager.html',1,'Settings']]],
-  ['manager',['Manager',['../class_event_1_1_manager.html',1,'Event']]],
-  ['manager',['Manager',['../class_plugin_1_1_manager.html',1,'Plugin']]],
+  ['manager',['Manager',['../class_d_a_q_1_1_manager.html',1,'DAQ::Manager'],['../class_workspace_1_1_manager.html',1,'Workspace::Manager'],['../class_settings_1_1_manager.html',1,'Settings::Manager'],['../class_plugin_1_1_manager.html',1,'Plugin::Manager'],['../class_event_1_1_manager.html',1,'Event::Manager']]],
   ['maprocess',['MaProcess',['../class_ma_process.html',1,'']]],
   ['masource',['MaSource',['../class_ma_source.html',1,'']]],
   ['matrix',['Matrix',['../class_matrix.html',1,'Matrix&lt; T &gt;'],['../classmatrix.html',1,'matrix&lt; T &gt;']]],

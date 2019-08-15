@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['yulewalker',['YuleWalker',['../class_yule_walker.html',1,'']]]
+  ['zoomer',['Zoomer',['../class_zoomer.html',1,'']]]
 ];

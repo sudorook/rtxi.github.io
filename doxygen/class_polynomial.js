@@ -7,7 +7,7 @@ var class_polynomial =
     [ "DumpToStream", "class_polynomial.html#a726d485bba025ca251b2c0c778c0bf67", null ],
     [ "GetCoefficient", "class_polynomial.html#a7d3a2dcf0b14e88d6a6110ab5986e872", null ],
     [ "GetDegree", "class_polynomial.html#ad473bf71fc0eb1cebf9b521e08eab5f4", null ],
-    [ "operator*=", "class_polynomial.html#a91e718cd315cdc15ab89625702c1d968", null ],
+    [ "operator *=", "class_polynomial.html#a8bcf25cffde792853dd65427aed8202e", null ],
     [ "operator/=", "class_polynomial.html#aa81c2383c0edb9468ce36cc960f94db8", null ],
     [ "operator=", "class_polynomial.html#ac9776dfd783ab3fa72762c5f48349d0b", null ],
     [ "Coefficient", "class_polynomial.html#a6474deeb6c605f7731c0720fdf098dd3", null ],

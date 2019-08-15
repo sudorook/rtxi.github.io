@@ -17,7 +17,7 @@ var searchData=
   ['_7eburgmethod',['~BurgMethod',['../class_burg_method.html#a11bb9b3e39c64f54a69351047ae85e3d',1,'BurgMethod']]],
   ['_7echannel',['~Channel',['../class_data_recorder_1_1_channel.html#aa20aa911e7a77f9bdf334f007683e802',1,'DataRecorder::Channel::~Channel()'],['../class_scope_1_1_channel.html#a7aff7b5e7543fdb4c7d338824a7e682c',1,'Scope::Channel::~Channel()']]],
   ['_7ecmdline',['~CmdLine',['../class_cmd_line.html#aee078cd21e3eb715458a58ae7880db33',1,'CmdLine']]],
-  ['_7ecolvec',['~colvec',['../singletoncolvec.html#a4ba29c1abd4b3fb164b99b5907ad49f1',1,'colvec']]],
+  ['_7ecolvec',['~colvec',['../classcolvec.html#a4ba29c1abd4b3fb164b99b5907ad49f1',1,'colvec']]],
   ['_7econnector',['~Connector',['../class_i_o_1_1_connector.html#a482a655845239f4f9ab24e452de4fcf2',1,'IO::Connector']]],
   ['_7ecpfsksource',['~CpfskSource',['../class_cpfsk_source.html#ab58075f371b3ff33591c7b57cf948cf5',1,'CpfskSource']]],
   ['_7ecustomevent',['~CustomEvent',['../class_data_recorder_1_1_custom_event.html#a37dce0771023e767bc93cbe8636cf353',1,'DataRecorder::CustomEvent']]],
@@ -60,7 +60,7 @@ var searchData=
   ['_7eprimefactorset',['~PrimeFactorSet',['../class_prime_factor_set.html#a77ef30b618999bc0646af5657f8e3fe0',1,'PrimeFactorSet']]],
   ['_7epsdestimate',['~PsdEstimate',['../class_psd_estimate.html#a3de02302c19c44e5260c6196ae374504',1,'PsdEstimate']]],
   ['_7erealtimemath',['~RealTimeMath',['../class_real_time_math.html#a12a6f4213cf86987b2a14b3b290f6673',1,'RealTimeMath']]],
-  ['_7erowvec',['~rowvec',['../singletonrowvec.html#afe7578f65373f83e09a64047e420dc9c',1,'rowvec']]],
+  ['_7erowvec',['~rowvec',['../classrowvec.html#afe7578f65373f83e09a64047e420dc9c',1,'rowvec']]],
   ['_7erthandler',['~RTHandler',['../class_event_1_1_r_t_handler.html#ad8df9676138e8a8a8a4c49a429a9bcd1',1,'Event::RTHandler']]],
   ['_7erunningstat',['~RunningStat',['../class_running_stat.html#a29cabe5068137aa0562f95883eddf5b4',1,'RunningStat::~RunningStat()'],['../class_running_stat.html#a29cabe5068137aa0562f95883eddf5b4',1,'RunningStat::~RunningStat()']]],
   ['_7escatterplot',['~ScatterPlot',['../class_scatter_plot.html#a1e13829ec90558022b6f870edc0b3678',1,'ScatterPlot']]],
@@ -77,5 +77,5 @@ var searchData=
   ['_7esystemcontrol',['~SystemControl',['../class_system_control.html#a7cb50df16d3abbfe347ce65e1509a079',1,'SystemControl']]],
   ['_7esystemcontrolpanel',['~SystemControlPanel',['../class_system_control_panel.html#aaaa6a2f57e290a54705ab4b95ead80a8',1,'SystemControlPanel']]],
   ['_7ethread',['~Thread',['../class_r_t_1_1_thread.html#a70a3980469252c10398ce5a1f777be25',1,'RT::Thread']]],
-  ['_7evector',['~vector',['../singletonvector.html#a41f266b1f47f9f15bae0e87a1dbca568',1,'vector']]]
+  ['_7evector',['~vector',['../classvector.html#a41f266b1f47f9f15bae0e87a1dbca568',1,'vector']]]
 ];
