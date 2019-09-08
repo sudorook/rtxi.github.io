@@ -4,11 +4,11 @@ categories: docs tutorials
 layout: post
 ---
 
-RTXI v{{ site.rtxi_version }} introduced many changes over the v1.4 release.
-Most of these changes should have a limited impact on your modules, but even in
-that case, you will need to make some edits to your code to port it to 
-{{ site.rtxi_version }}. This tutorial will focus on some common changes that
-should cover most use-cases. The changes mostly have to do with:    
+RTXI v2.1 introduced many changes over the v1.4 release.  Most of these changes
+should have a limited impact on your modules, but even in that case, you will
+need to make some edits to your code to port it to v2.1. This tutorial will
+focus on some common changes that should cover most use-cases. The changes
+mostly have to do with:    
  
 1. Upgrading from Qt3 to Qt5  
 2. Upgrading Qwt5 to Qwt6  

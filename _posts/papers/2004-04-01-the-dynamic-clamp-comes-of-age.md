@@ -1,5 +1,5 @@
 ---
-title: "The dynamic clamp compes of age"
+title: "The dynamic clamp comes of age"
 layout: post
 categories: papers
 

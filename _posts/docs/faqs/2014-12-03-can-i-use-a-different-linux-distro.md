@@ -5,6 +5,6 @@ categories: docs faqs
 ---
 
 Yes. RTXI has been successfully installed on Ubuntu, openSUSE, Debian, and
-Fedora. Keep in mind that we use Debian for bugtesting, benchmarking, etc. and
+Fedora. Keep in mind that we use Ubuntu for bugtesting, benchmarking, etc. and
 that different distributions have different ways of automating scripts,
-inserting kernel modules, and escalating priveleges. 
+inserting kernel modules, and escalating privileges. 
