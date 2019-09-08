@@ -145,6 +145,8 @@ task :paper do
         file.puts "layout: post"
         file.puts "category: papers"
         file.puts ""
+        file.puts "publish_date: "
+        file.puts ""
         file.puts "reference: "
         file.puts "authors:"
         file.puts " - name: "
@@ -208,6 +210,7 @@ task :publish do
         FileUtils.mv("_drafts/#{@title}", "_posts/docs/faqs/#{@date}-#{@title}")
       elsif File.readlines("_drafts/#{@title}").grep(/categor(y|ies):.papers/).any?
         Dir.mkdir("_posts/papers") unless File.exists?("_posts/papers")
+        @date = Time.now.strftime(File.readlines("_drafts/#{@title}").grep(/date: \d+-\d+-\d+/)[0].match(/(\d+-\d+-\d+)/).to_s).to_date
         FileUtils.mv("_drafts/#{@title}", "_posts/papers/#{@date}-#{@title}")
       end
     end

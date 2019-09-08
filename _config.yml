@@ -45,7 +45,7 @@ developers:
    url: https://github.com/yapatel
 
 
-gems:
+plugins:
  - jekyll-sitemap
  - jekyll-redirect-from
  - jekyll-paginate

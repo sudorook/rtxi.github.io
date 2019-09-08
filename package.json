@@ -1,6 +1,6 @@
 {
   "name": "RTXI",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "The Real-Time eXperiment Interface",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,24 +14,30 @@
     "electrophysiology"
   ],
   "author": "Ansel George",
-  "license": "GPLv3",
+  "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/rtxi/issues"
   },
   "homepage": "http://rtxi.org",
   "devDependencies": {
     "grunt": "^1.0.4",
-    "grunt-bower-task": "^0.5.0",
     "grunt-build-control": "^0.7.1",
     "grunt-contrib-concat": "^1.0.1",
-    "grunt-contrib-connect": "^2.0.0",
+    "grunt-contrib-connect": "^2.1.0",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-cssmin": "^3.0.0",
     "grunt-contrib-htmlmin": "^3.1.0",
-    "grunt-contrib-less": "^2.0.0",
+    "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-uglify": "^4.0.1",
     "grunt-contrib-watch": "^1.1.0",
-    "grunt-exec": "^3.0.0",
     "grunt-shell": "^3.0.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "datatables.net-responsive-bs4": "^2.2.3",
+    "font-awesome": "^4.7.0",
+    "fontawesome": "^5.6.3",
+    "isotope-layout": "^3.0.6",
+    "popper.js": "^1.15.0"
   }
 }
