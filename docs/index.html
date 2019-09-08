@@ -14,64 +14,55 @@ faq_modulus: 20
 ---
 
 <div class="container">
-  <h2 class="page-header">Documentation</h2>
+  <h1 class="h1 mt-4">Documentation</h1>
 
   <div class="row">
-    <p class="col-sm-9 col-lg-10">
-      The RTXI user manual will be available here soon. Until then, look
-      through our tutorials, troubleshooting guides, and faqs on this page for
-      further documentation. For developers, you can also look through our
-      Doxygen pages to get a better understanding of the source code.  
-    </p>
-    <div class="col-sm-3 col-lg-2">
-      <a href="/docs/manual">
-        <button type="button" 
-                class="btn btn-danger col-xs-offset-1 
-                       col-xs-4 col-sm-offset-0 col-sm-12" 
-                style="margin-bottom:5px;">Manual</button>
-      </a>
-    
-      <a href="/doxygen" download>
-         <button type="button" 
-                 class="btn btn-danger 
-                        col-xs-4 col-xs-offset-2 col-sm-offset-0 col-sm-12" 
-                 style="margin-bottom:5px;">Doxygen</button>
-      </a>
+    <div class="col">
+      Look through our documentation for tutorials, troubleshooting tips, and
+      answers to basic questions. More technical information is available via
+      the user manual, and an organized description of the source code is
+      provided by the Doxygen pages. Should there be issues that are not
+      addressed or explained, feel free to <a href="/contact">contact us</a>
+      via GitHub issues or by email.
+    </div>
+    <div class="col-auto">
+      <a href="/docs/manual" role="button" class="btn btn-lg btn-danger">Manual</a>
+      <a href="/doxygen" role="button" class="btn btn-lg btn-danger">Doxygen</a>
     </div>
   </div>
 </div>
 
-<div class="hidden-sm">&nbsp;</div>
-<div class="hidden-sm">&nbsp;</div>
+<br>
 
 <div class="container">
-  <ul class="nav nav-tabs nav-justified lead" role="tablist">
-    <li role="presentation" class="active">
-      <a data-toggle="tab" href="#tutor" role="tab">Tutorials</a>
+  <ul class="nav nav-tabs lead justify-content-center" role="tablist">
+    <li role="presentation" class="nav-item">
+      <a data-toggle="tab" class="nav-link active" href="#tutor" role="tab">Tutorials</a>
     </li>
-    <li role="presentation">
-      <a data-toggle="tab" href="#trouble" role="tab">Troubleshooting</a>
+    <li role="presentation" class="nav-item">
+      <a data-toggle="tab" class="nav-link" href="#trouble" role="tab">Troubleshooting</a>
     </li>
-    <li role="presentation">
-      <a data-toggle="tab" href="#faq" role="tab">FAQs</a>
+    <li role="presentation" class="nav-item">
+      <a data-toggle="tab" class="nav-link" href="#faq" role="tab">FAQs</a>
     </li>
   </ul>
 </div>
 
 <div class="container tab-content">
-  <div id="tutor" role="tabpanel" class="tab-pane fade in active">
-    {% capture tutorvar %}{% increment tutorbodycount %}{% endcapture %}
+
+  <div id="tutor" role="tabpanel" class="tab-pane fade show active">
+    {% assign tutorbodycount = 0 %}
     <div class="tab-content">
       {% for post in site.categories.tutorials %}
         {% capture tutorflag %}{{ forloop.index | modulo:page.tutorial_modulus }}{% endcapture %}
         {% if tutorflag == "1" %}
-        {% capture tutorvar %}{% increment tutorbodycount %}{% endcapture %}
+        {% assign tutorbodycount = tutorbodycount | plus:1 %}
           {% if forloop.index == 1 %}
-          <div class="tab-pane fade in active" role="tabpanel" 
-               id="tutor{{ tutorvar }}">
+          <div class="tab-pane fade show active" role="tabpanel" 
+               id="tutor{{ tutorbodycount }}">
           {% else %}
           </div><div class="tab-pane fade" role="tabpanel" 
-                     id="tutor{{ tutorvar }}">
+                     id="tutor{{ tutorbodycount }}">
           {% endif %}
         {% endif %}
        <div>&nbsp;</div>
@@ -82,30 +73,32 @@ faq_modulus: 20
       {% endfor %}
       </div>
     </div>
-    
+   
+    <br>
+
     <!-- Paginator --> 
-    <div class="text-center"><ul class="pagination">
-      {% capture tutorvar %}{% increment tutorpagecount %}{% endcapture %}
+    <nav aria-label="Turorial paginator"><ul class="pagination justify-content-center">
+    {% assign tutorpagecount = 0 %}
       {% for post in site.categories.tutorials %}
         {% capture tutorflag %}{{ forloop.index | modulo:page.tutorial_modulus }}{% endcapture %}
         {% if tutorflag == "1" %}
-          {% capture tutorvar %}{% increment tutorpagecount %}{% endcapture %}
+          {% assign tutorpagecount = tutorpagecount | plus:1 %}
           {% if forloop.index == 1 %}
-            <li class="active" role="presentation">
-              <a data-toggle="tab" href="#tutor{{tutorvar}}">
-               {{tutorvar}}
+            <li class="active page-item" role="presentation">
+              <a data-toggle="tab" href="#tutor{{ tutorpagecount }}" class="page-link">
+               {{ tutorpagecount }}
               </a>
             </li>
           {% else %}
-            <li>
-              <a data-toggle="tab" href="#tutor{{ tutorvar }}">
-               {{ tutorvar }}
+            <li class="page-item">
+              <a data-toggle="tab" href="#tutor{{ tutorpagecount }}" class="page-link">
+               {{ tutorpagecount }}
               </a>
             </li>
           {% endif %}
         {% endif %}
       {% endfor %}
-    </ul></div>
+    </ul></nav>
   </div>
 
   <div id="trouble" role="tabpanel" class="tab-pane fade">
@@ -124,7 +117,7 @@ faq_modulus: 20
         {% if troubleflag == "1" %}
         {% capture troublevar %}{% increment troublebodycount %}{% endcapture %}
           {% if forloop.index == 1 %}
-          <div class="tab-pane fade in active" role="tabpanel" 
+          <div class="tab-pane fade show active" role="tabpanel" 
                id="trouble{{ troublevar }}">
           {% else %}
           </div><div class="tab-pane fade" role="tabpanel" 
@@ -139,30 +132,32 @@ faq_modulus: 20
       {% endfor %}
       </div>
     </div>
-    
+   
+    <br>
+
     <!-- Paginator --> 
-    <div class="text-center"><ul class="pagination">
+    <nav aria-label="Troubleshooting paginator"><ul class="pagination justify-content-center">
       {% capture troublevar %}{% increment troublepagecount %}{% endcapture %}
       {% for post in site.categories.troubleshoot %}
         {% capture troubleflag %}{{ forloop.index | modulo:page.troubleshoot_modulus }}{% endcapture %}
         {% if troubleflag == "1" %}
           {% capture troublevar %}{% increment troublepagecount %}{% endcapture %}
           {% if forloop.index == 1 %}
-            <li class="active" role="presentation">
-              <a data-toggle="tab" href="#trouble{{troublevar}}">
+            <li class="page-item active" role="presentation">
+              <a data-toggle="tab" class="page-link" href="#trouble{{troublevar}}">
                {{troublevar}}
               </a>
             </li>
           {% else %}
-            <li>
-              <a data-toggle="tab" href="#trouble{{ troublevar }}">
+            <li class="page-item">
+              <a data-toggle="tab" class="page-link" href="#trouble{{ troublevar }}">
                {{ troublevar }}
               </a>
             </li>
           {% endif %}
         {% endif %}
       {% endfor %}
-    </ul></div>
+    </ul></nav>
   </div>
 
   <div id="faq" role="tabpanel" class="tab-pane fade">
@@ -173,7 +168,7 @@ faq_modulus: 20
         {% if faqflag == "1" %}
         {% capture faqvar %}{% increment faqbodycount %}{% endcapture %}
           {% if forloop.index == 1 %}
-          <div class="tab-pane fade in active" role="tabpanel" 
+          <div class="tab-pane fade show active" role="tabpanel" 
                id="faq{{ faqvar }}">
           <div>&nbsp;</div>
           {% else %}
@@ -194,26 +189,28 @@ faq_modulus: 20
       {% endfor %}
       </div>
     </div>
-    
+
+    <br>
+
     <!-- Paginator --> 
-    <div class="text-center"><ul class="pagination">
+    <nav aria-label="FAQ paginator"><ul class="pagination justify-content-center">
       {% capture faqvar %}{% increment faqpagecount %}{% endcapture %}
       {% for post in site.categories.faqs %}
         {% capture faqflag %}{{ forloop.index | modulo:page.faq_modulus }}{% endcapture %}
         {% if faqflag == "1" %}
           {% capture faqvar %}{% increment faqpagecount %}{% endcapture %}
           {% if forloop.index == 1 %}
-            <li class="active" role="presentation">
-              <a data-toggle="tab" href="#faq{{faqvar}}">{{faqvar}}</a>
+            <li class="active page-item" role="presentation">
+              <a class="page-link" data-toggle="tab" href="#faq{{faqvar}}">{{faqvar}}</a>
             </li>
           {% else %}
-            <li>
-              <a data-toggle="tab" href="#faq{{ faqvar }}">{{ faqvar }}</a>
+            <li class="page-item">
+              <a class="page-link" data-toggle="tab" href="#faq{{ faqvar }}">{{ faqvar }}</a>
             </li>
           {% endif %}
         {% endif %}
       {% endfor %}
-    </ul></div>
+    </ul></nav>
   </div>
 
 </div>

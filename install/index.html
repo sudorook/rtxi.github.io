@@ -8,12 +8,12 @@ can install the RTXI GUI without recompiling a kernel. "
 ---
 
 <div class="container">
-  <h2 class="page-header">Installing RTXI</h2>
+  <h1 class="h1 mt-4">Installing RTXI</h1>
 </div>
 
 <div class="container">
   <p>There are three ways to install RTXI:</p>
-  <dl class="dl-horizontal">
+  <dl>
     <dt>Standard</dt>
       <dd>Use our Ubuntu-based live CDs. It's easier than manually installing
       RTXI, but differences between your system and the one used to make the
@@ -31,31 +31,28 @@ can install the RTXI GUI without recompiling a kernel. "
   </dl>
 </div>
 
-<br>
-
 <div class="container">
-  <ul class="nav nav-pills nav-justified lead" role="tablist">
-    <li role="presentation" class="active">
-      <a data-toggle="tab" href="#standard" role="tab">Standard</a>
+  <ul class="nav nav-tabs justify-content-center lead" role="tablist">
+    <li role="presentation" class="nav-item">
+      <a data-toggle="tab" href="#standard" class="nav-link active" role="tab">Standard</a>
     </li>
-    <li role="presentation">
-      <a data-toggle="tab" href="#custom" role="tab">Custom</a>
+    <li role="presentation" class="nav-item">
+      <a data-toggle="tab" href="#custom" class="nav-link" role="tab">Custom</a>
     </li>
-    <li role="presentation">
-      <a data-toggle="tab" href="#upgrade" role="tab">Upgrade</a>
+    <li role="presentation" class="nav-item">
+      <a data-toggle="tab" href="#upgrade" class="nav-link" role="tab">Upgrade</a>
     </li>
   </ul>
 
   <!-- Counters created by increment start at 0. Initialize them here and catch
-    the output -->
+       the output -->
   {% assign standardcount = 1 %}
   {% assign customcount = 1 %}
   {% assign upgradecount = 1%}
 
   <div class="tab-content">
     <div id="standard" role="tabpanel" 
-         class="tab-pane fade in active">
-      <div class="panel-body row">
+         class="tab-pane fade show active">
 
       <p>
         <strong>Reminder:</strong> In the next step, you will be installing an
@@ -70,11 +67,14 @@ can install the RTXI GUI without recompiling a kernel. "
         {% assign standardcount = standardcount | plus:1 %}
       </h4>
 
-      <p>We currently have 64-bit Ubuntu live CDs for two different processor architectures. You can use them to test RTXI without touching your hard drive, format your hard drive, and install
-      RTXI alongside existing operating systems.
-</p>
+      <p>We currently have 64-bit Ubuntu live CDs for two different processor
+      architectures. You can use them to test RTXI without touching your hard
+      drive, format your hard drive, and install RTXI alongside existing
+      operating systems.
+      </p>
 
-<p> Use the "-core-2" live CD for Core 2/newer Xeon processors, and the "-generic" for all others.
+      <p> Use the "-core-2" live CD for Core 2/newer Xeon processors, and the
+      "-generic" for all others.
       </p>
 
       <div class="container" style="text-align:center">
@@ -92,7 +92,11 @@ can install the RTXI GUI without recompiling a kernel. "
       <div>&nbsp;</div>
 
       <!-- legacy bit for RTXI 1.4 -->
-      <p>If you are installing on a 32-bit machine or need a previous version of RTXI, you can download the source code from <a href="https://github.com/rtxi/rtxi">github</a>. Keep in mind that previous versions may require significant amout of custom-fitting due to deprecated depedencies and changes to the real-time kernel.
+      <p>If you are installing on a 32-bit machine or need a previous version
+      of RTXI, you can download the source code from <a
+      href="https://github.com/rtxi/rtxi">github</a>. Keep in mind that
+      previous versions may require significant amout of custom-fitting due to
+      deprecated depedencies and changes to the real-time kernel.
       </p>
 
       <!-- 2. Burn the image to DVD or USB -->
@@ -155,7 +159,13 @@ can install the RTXI GUI without recompiling a kernel. "
         your BIOS menu. 
       </p>
       <p>
-      <strong>Note:</strong> Newer PCs tend to use the Unified Extensible Firmware Interface (UEFI) as opposed to the traditional Basic Input/Output System (BIOS). UEFI limits the types of devices that can be booted into to run an OS. If you chose to use a LiveUSB as opposed to a LiveCD/DVD, you will need to enable LEGACY boot mode through the settings menu (typically accessed by pressing <code>F2</code> when the system initially turns on). 
+      <strong>Note:</strong> Newer PCs tend to use the Unified Extensible
+      Firmware Interface (UEFI) as opposed to the traditional Basic
+      Input/Output System (BIOS). UEFI limits the types of devices that can be
+      booted into to run an OS. If you chose to use a LiveUSB as opposed to a
+      LiveCD/DVD, you will need to enable LEGACY boot mode through the settings
+      menu (typically accessed by pressing <code>F2</code> when the system
+      initially turns on). 
       </p>
       
       <!-- 4. Install RTXI -->
@@ -253,10 +263,9 @@ can install the RTXI GUI without recompiling a kernel. "
         <a href="/modules">modules page</a>.
       </p>
 
-    </div></div> <!-- end standard information -->
+    </div> <!-- end standard information -->
 
     <div id="custom" role="tabpanel" class="tab-pane fade">
-      <div class="panel-body row">
 
       <!-- 1. Download generic Debian image -->
       <h4 class="lead media-heading">
@@ -295,7 +304,7 @@ can install the RTXI GUI without recompiling a kernel. "
         operating systems, check out:
       </p>
       
-      <dl class="dl-horizontal">
+      <dl>
         <dt>Linux</dt>
           <dd>
           Use <a href="https://apps.ubuntu.com/cat/applications/precise/usb-creator-gtk/">Startup Disk Creator</a>
@@ -432,7 +441,7 @@ $ ./install_rt_kernel.sh
         follows: 
       </p>
       <a href="{{ site.img }}/kernel-config-home.png">
-        <img class="img-responsive center-block" 
+        <img class="img-fluid center-block" 
              src="{{ site.img }}/kernel-config-home.png">
       </a>
       <p>
@@ -585,10 +594,9 @@ $ sudo rtxi
         <a href="/modules">modules page</a>. 
       </p>
 
-    </div></div> <!-- end custom information -->
+    </div> <!-- end custom information -->
 
     <div id="upgrade" role="tabpanel" class="tab-pane fade">
-      <div class="panel-body row">
 
       <p>
         <b>Note:</b> If you are currently using older distributions, like
@@ -718,26 +726,23 @@ $ sudo rtxi
         </a></li>
       </ul>
 
-    </div></div>
+    </div>
 
   </div> <!-- end tab-content -->
   
-  <div class="row"><div class="col-xs-12">
-    <h2 class="page-header">Benchmark RTXI and the RT Kernel</h2>
+  <h2 class="page-header">Benchmark RTXI and the RT Kernel</h2>
 
-    <p>
-      The final step of any RTXI installation is to benchmark RTXI and the
-      real-time kernel it uses. Tests center around the built-in xenomai
-      latency test and the RT benchmarking module within RTXI. 
-      <a href="http://rtxi.org/docs/troubleshoot/2014/12/04/benchmarking-real-time-performance/">
-        An explanation of what exactly the tests measure</a> is available in 
-      our documentation.  
-    </p>
+  <p>
+    The final step of any RTXI installation is to benchmark RTXI and the
+    real-time kernel it uses. Tests center around the built-in xenomai
+    latency test and the RT benchmarking module within RTXI. 
+    <a href="http://rtxi.org/docs/troubleshoot/2014/12/04/benchmarking-real-time-performance/">
+      An explanation of what exactly the tests measure</a> is available in 
+    our documentation.  
+  </p>
+
+  <div class="mt-2">
+    {% include benchmarking.html %}
   </div>
-  </div>
-
-  <div>&nbsp;</div>
-
-  {% include benchmarking.html %}
 
 </div>

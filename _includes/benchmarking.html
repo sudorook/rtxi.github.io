@@ -1,6 +1,6 @@
 
 <!-- Begin benchmarking section -->
-<div class="row"><div class="col-xs-12">
+<div class="conatiner">
   <h3 class="lead media-heading">Xenomai latency test</h3>
   
   <p>If you used the live CDs, run:</p>
@@ -10,7 +10,8 @@ $ cd /opt/rtxi/scripts/
 $ sudo ./test_rt_kernel.sh
 {% endhighlight %}
 
-  <p>If you did a custom installation, go to the base of the RTXI directory you cloned from GitHub and run:</p>
+  <p>If you did a custom installation, go to the base of the RTXI directory you
+  cloned from GitHub and run:</p>
 
 {% highlight bash %}
 $ cd scripts/
@@ -50,14 +51,14 @@ $ eog test_rt_plot.svg
 
   <div>&nbsp;</div>
   <h3 class="lead media-heading">Record the RT benchmarks module</h3>
-  <p>RT performance during experiments can be monitored and recorded through the
-  RT Benchmarks module. Record the RT Benchmarks module in RTXI using the Data
-  Recorder module. RT Benchmarks displays runtime statistics for your system, such as the
-  computation time, real-time period, and jitter. For those unfamiliar with the
-  terms, here are brief definitions: 
+  <p>RT performance during experiments can be monitored and recorded through
+  the RT Benchmarks module. Record the RT Benchmarks module in RTXI using the
+  Data Recorder module. RT Benchmarks displays runtime statistics for your
+  system, such as the computation time, real-time period, and jitter. For those
+  unfamiliar with the terms, here are brief definitions: 
   </p>
 
-  <dl class="dl-horizontal">
+  <dl>
     <dt>Computation Time</dt>
       <dd>The time it takes to compute all the real-time components running,
       including all modules, data streams, and timers. It should always be less
@@ -93,7 +94,7 @@ $ eog test_rt_plot.svg
     <li>When done recording, hit "Stop Recording."
   </ol>
 
-  <img class="img-responsive center-block" src="{{ site.img }}/record-rt-benchmarks.png"><img>
+  <img class="img-fluid center-block" src="{{ site.img }}/record-rt-benchmarks.png"><img>
 
   <div>&nbsp;</div>
 
@@ -122,4 +123,4 @@ $ ./plot_rtxi_performance.sh FILENAME
   know if you are having performance issues. 
   </p>
 -->
-</div></div>
+</div>

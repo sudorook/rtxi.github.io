@@ -9,13 +9,13 @@ what hardware."
 
 extra_css: "
 <style>
-.modal .modal-dialog { width: 90%; }
+.modal .modal-lg { width: 90%; }
 </style>
 "
 ---
 
 <div class="container">
-  <h2 class="page-header">Stats and Benchmarks</h2>
+  <h1 class="h1 mt-4">Stats and Benchmarks</h1>
   <div class="row">
     <div class="col-sm-9">
       <p>
@@ -40,43 +40,45 @@ extra_css: "
   </div>
 
   <div class="modal fade" id="benchmarking" tabindex="-1" 
-       role="dialog" aria-hidden="true" aria-labelledby="modaltitle">
-    <div class="modal-dialog"><div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" 
-                data-dismiss="modal" 
-                aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-        <h2 class="modal-title">Benchmarking Instructions</h2>
+       aria-hidden="true" aria-labelledby="modaltitle">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title">Benchmarking Instructions</h2>
+          <button type="button" class="close" 
+                  data-dismiss="modal" 
+                  aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          {% include benchmarking.html %}
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" 
+                  data-dismiss="modal">Close
+          </button>
+        </div>
       </div>
-      <div class="modal-body">
-        {% include benchmarking.html %}
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary" 
-                data-dismiss="modal">Close
-        </button>
-      </div>
-    </div></div>
+    </div>
   </div>
 
   <h3 class="page-header">Machine 1</h3>
   <a href="{{ site.img }}/benchmarks/test_rt_plot_puffin.svg">
-    <img class="img-responsive" 
+    <img class="img-fluid" 
          src="{{ site.img }}/benchmarks/test_rt_plot_puffin.svg">
   </a>
 
   <h3 class="page-header">Machine 2</h3>
   <a href="{{ site.img }}/benchmarks/test_rt_plot_cockatiel.svg">
-    <img class="img-responsive" 
+    <img class="img-fluid" 
          src="{{ site.img }}/benchmarks/test_rt_plot_cockatiel.svg">
   </a>
 
 <!--
   <h3 class="page-header">Machine 3</h3>
   <a href="{{ site.img }}/benchmarks/performance_50kHz_cockatiel.png">
-    <img class="img-responsive" src="{{ site.img }}/benchmarks/performance_50kHz_cockatiel.png">
+    <img class="img-fluid" src="{{ site.img }}/benchmarks/performance_50kHz_cockatiel.png">
   </a>
 -->
 </div>

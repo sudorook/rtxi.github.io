@@ -49,91 +49,12 @@ unused_sections:
 
 extra_js: "
 <script>
-var navHeight = $('.navbar').outerHeight(true) + 10;
-var topblockHeight = $('#topblock').outerHeight(true);
-
-/* activate sidebar */
-$('#sidebar').affix({
-  offset: {
-    top: topblockHeight
-  }
-});
-
-/* activate scrollspy menu */
-$('body').scrollspy({
-  target: '#leftCol',
-  offset: navHeight
-});
-
-/* enable smooth scrolling */
-$('#leftCol a').on('click', function(event) {
-  event.preventDefault();
-  var hash = this.hash;
-
-  $('html, body').animate({
-    scrollTop: $(hash).offset().top
-  }, 200, function() {
-    window.location.hash = hash;
-  });
-});
+$('body').scrollspy({ target: '#sidebar' })
 </script>
 "
 
 extra_css: "
 <style>
-#sidebar.affix-top {
-  position: static;
-  margin-top: 30px;
-}
-  
-#sidebar.affix {
-  position: fixed;
-  top:70px;
-}
-
-img {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-#sidebar.nav .active {
-  font-weight: bold;
-}
-
-#sidebar.nav .nav {
-  display: none;
-}
-
-#sidebar.nav .active .nav {
-  display: block;
-}
-
-#sidebar.nav .nav a {
-  font-weight: normal;
-  font-size: .85em;
-}
-
-#sidebar.nav .nav span {
-  margin: 0 5px 0 2px;
-}
-
-#sidebar.nav .nav .active a,
-#sidebar.nav .nav .active:hover a,
-#sidebar.nav .nav .active:focus a {
-  font-weight: bold;
-}
-
-#sidebar.nav .nav .active span,
-#sidebar.nav .nav .active:hover span,
-#sidebar.nav .nav .active:focus span {
-  display: none;
-}
-
 pre code{
   overflow: auto;
   -ms-word-wrap: normal;
@@ -146,38 +67,41 @@ pre code{
 ---
 
 <div class="container">
+  <h1 class="h1 mt-4">{{ page.title }}</h1>
+</div>
 
-  <div class="row" id="topblock"><div class="col-xs-12">
-    <h2 class="page-header">{{ page.title }}</h2>
-  </div></div>
-    
+<div class="container">
 
   <div class="row">
-    <nav class="col-sm-3 col-lg-2 hidden-xs" id="leftCol">
-      <ul class="nav" id="sidebar" data-spy="affix">
-      {% for section in page.sections %}
-        {% if section.subsections == nil %} 
-        <li><a href="#{{ section.tag }}">{{ section.name }}</a></li>
-        {% else %}
-        <li><a href="#{{ section.tag }}">{{ section.name }}</a>
-          <ul class="nav collapse" style="padding-left:20px">
-            {% for subsection in section.subsections %}
-            <li><a href="#{{ subsection.tag }}">{{ subsection.name }}</a></li>
-            {% endfor %}
-          </ul>
-        </li>
-        {% endif %}
-      {% endfor %}
-      </ul>
-    </nav>
 
-    <div class="col-sm-9 col-lg-10">
-    {% for section in page.sections %}
-      <div id="{{ section.tag }}" 
-           style="padding-top:30px; margin-top:-30px">{% include manual/{{ section.tag }}.html %}
-      </div>
-    {% endfor %}
+    <div class="col-sm-4 col-lg-3 d-none d-sm-block">
+      <nav id="sidebar" class="navbar navbar-light bg-light sticky-top" style="top:5em">
+        <a class="navbar-brand">Contents</a>
+        <nav class="nav nav-pills flex-column">
+          {% for section in page.sections %}
+            {% if section.subsections == nil %} 
+            <a class="nav-link" href="#{{ section.tag }}">{{ section.name }}</a>
+            {% else %}
+            <a class="nav-link" href="#{{ section.tag }}">{{ section.name }}</a>
+            <nav class="nav nav-pills flex-column">
+              {% for subsection in section.subsections %}
+              <a class="ml-2 nav-link" href="#{{ subsection.tag }}">{{ subsection.name }}</a>
+              {% endfor %}
+            </nav>
+            {% endif %}
+          {% endfor %}
+        </nav>
+      </nav>
     </div>
-  </div>
+
+    <div class="col-sm-8 col-lg-9">
+      <div data-spy="scroll" data-target="#sidebar" data-offset="0" style="position:relative;">
+      {% for section in page.sections %}
+      <div id="{{ section.tag }}">
+      {% include manual/{{ section.tag }}.html %}
+      </div>
+      {% endfor %}
+      </div>
+    </div>
   
 </div>

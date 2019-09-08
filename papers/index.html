@@ -70,15 +70,19 @@ extra_js: "
 ---
 
 <div class="container">
-  <h2 class="page-header">Papers</h2>
+  <h1 class="h1 mt-4">Papers</h1>
   <p>
     If your use of RTXI leads to publication, please cite RTXI in your paper.
     We get our funding from the NIH, and citations will help when our grant
     renewal comes around. Cite: 
   </p>
-  <div class="well">
-    Patel, Y.A., George, A., Dorval, A.D., White, J.A., Christini, D.J. and Butera, R.J., 2017. Hard real-time closed-loop electrophysiology with the Real-Time eXperiment Interface (RTXI). PLOS Computational Biology, 13(5), e1005430.
-  </div>
+  
+  <p class="card card-body bg-light">
+    Patel, Y.A., George, A., Dorval, A.D., White, J.A., Christini, D.J. and
+    Butera, R.J., 2017. Hard real-time closed-loop electrophysiology with the
+    Real-Time eXperiment Interface (RTXI). PLOS Computational Biology, 13(5),
+    e1005430.
+  </p>
   
   <p>
     Below is our list of papers that cite RTXI. We're always on the lookout for
@@ -87,7 +91,6 @@ extra_js: "
   </p>
 </div>
 
-<div>&nbsp;</div>
 <div class="container">
   <p><input type="text" id="quicksearch" placeholder=" Search all papers" 
             style="width:100%" />
@@ -95,7 +98,7 @@ extra_js: "
 </div>
 
 {% assign chunkcount = 1 %}
-{% assign flag="false" %}
+{% assign flag = "false" %}
 <div class="container" style="text-align:center">
   <div id="paperfilters" role="toolbar" data-toggle="buttons"
        class="btn-toolbar" style="display:inline-block">
@@ -120,7 +123,7 @@ extra_js: "
         {% else %}'{{ lastyear }}-{{startyear}}
         {% endif %}
     </button>
-        {% assign flag == "false" %}
+        {% assign flag = "false" %}
         {% capture startyear %}{{ thisyear }}{% endcapture %}
         {% assign chunkcount = chunkcount | plus: 1 %}
       {% endif %}
@@ -136,8 +139,9 @@ extra_js: "
   </div>
 </div>
 
-<div style="border-bottom: 2px solid #eee; margin-bottom: 10px;" 
-     class="container">&nbsp;</div>
+<div class="container">
+  <hr>
+</div>
 
 {% assign chunkcount = 1 %}
 {% assign flag = "false" %}
@@ -158,16 +162,18 @@ extra_js: "
     <div class="item col-sm-12 col-md-6 chunk{{chunkcount}}" 
          data-category="chunk{{chunkcount}}">
       <a href="{{ post.link }}" style="color:inherit;">
-        <div class="panel panel-primary">
-          <div class="panel-heading">
-            <h4 class="panel-title">{{ post.title }}</h4>
+        <div class="card mb-2">
+          <div class="card-header bg-primary text-white">
+            <h4 class="card-title">{{ post.title }}</h4>
           </div>
-          <div class="panel-body hidden-xs">
+          <div class="card-body d-none d-sm-block">
             <div hidden> {% for author in post.authors %}
                          {{ author.name }} 
                          {% endfor %}
             </div>
-            {{ post.excerpt }}
+            <div>
+              {{ post.excerpt }}
+            </div>
           </div>
         </div>
       </a>

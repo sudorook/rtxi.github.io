@@ -40,10 +40,12 @@
   </head>
 
   <body>
+    <header>
     {% include navbar.html %}
-    <div style="padding-top:30px">
+    </header>
+    <main role="main" style="padding-top:30px">
       {{ content }}
-    </div>
+    </main>
   </body>
 
   {% include footer.html %}
