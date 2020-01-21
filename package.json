@@ -33,11 +33,11 @@
     "grunt-shell": "^3.0.1"
   },
   "dependencies": {
-    "bootstrap": "^4.3.1",
+    "bootstrap": "^4.4.1",
     "datatables.net-responsive-bs4": "^2.2.3",
     "font-awesome": "^4.7.0",
     "fontawesome": "^5.6.3",
     "isotope-layout": "^3.0.6",
-    "popper.js": "^1.15.0"
+    "popper.js": "^1.16.0"
   }
 }
